@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "LegacySOAP": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5000"
+      },
+      "distributionName": ""
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5000/LegacyService.svc",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://0.0.0.0:5000"
+      },
+      "publishAllPorts": true,
+      "useSSL": false
+    }
+  }
+}

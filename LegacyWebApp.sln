@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32602.291
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWebApp", "LegacyWebApp\LegacyWebApp.csproj", "{63ECF5FF-E735-4EF8-B161-CC06E15684A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacySOAP", "LegacySOAP\LegacySOAP.csproj", "{E20F1973-3092-4C74-A888-BE15904717F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegacySOAP", "LegacySOAP\LegacySOAP.csproj", "{E20F1973-3092-4C74-A888-BE15904717F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  legacysoap:
+    image: ${DOCKER_REGISTRY-}legacysoap
+    build:
+      context: .
+      dockerfile: LegacySOAP/Dockerfile
